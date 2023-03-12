@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+
+        <variable
+
+            name="onboardingVM"
+            type="com.tour_guide.app.modules.onboarding.data.viewmodel.OnboardingVM"/>
+    </data>
+
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearOnboarding"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearContent"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylegray_51">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="674dp"
+
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/txtLanguage"
+                style="@style/txtDMSansregular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_22pxh"
+                android:layout_marginTop="@dimen/_19pxv"
+                android:layout_marginEnd="@dimen/_22pxh"
+                android:background="#FAF5F5"
+                android:gravity="center_horizontal"
+                android:text="@{onboardingVM.onboardingModel.txtLanguage}"
+                android:textColor="#020202"
+                android:textSize="27sp"
+
+                tools:text="@string/msg_lorem_ipsum_dol" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</layout>

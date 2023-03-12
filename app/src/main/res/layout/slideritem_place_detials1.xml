@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="imageSliderSliderrectangleoneModel" type="com.tour_guide.app.modules.placedetials.data.model.ImageSliderSliderrectangleoneModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackrectangleone"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <ImageView android:id="@+id/imageRectangleOne"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_363pxh"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY" cornerRadius="@{@dimen/_34pxh}"
+            imageUrl="@{imageSliderSliderrectangleoneModel.imageRectangleOne}"
+            placeHolder="@{@drawable/image_not_found}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle1_363x376"/>
+        <ImageButton
+            android:background="@drawable/rectangle_bg_gray_100_51_radius_27"
+            android:id="@+id/btnArrowleft"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_54pxh"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_17pxh"
+            android:layout_marginStart="@dimen/_17pxh"
+            android:layout_marginTop="@dimen/_9pxv"
+            android:layout_width="@dimen/_54pxh"
+            android:paddingHorizontal="@dimen/_17pxh"
+            android:paddingVertical="@dimen/_17pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_arrowleft" tools:ignore="ContentDescription"/>
+    </FrameLayout>
+</layout>

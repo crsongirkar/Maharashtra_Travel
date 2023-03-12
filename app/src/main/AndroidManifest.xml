@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.tour_guide.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@drawable/maha"
+        android:label="Tour Guide" android:largeHeap="true"
+        android:name="com.tour_guide.app.appcomponents.di.MyApp"
+        android:roundIcon="@drawable/maha"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true"
+        android:dataExtractionRules="@xml/data_extraction_rules">
+        <activity
+            android:name="com.tour_guide.app.modules.cssscreen450onboarding.ui.CssScreen450OnboardingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.signuptyping.ui.SignupTypingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.logintyping.ui.LoginTypingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.placedetials.ui.PlaceDetialsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.signup.ui.SignupActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.cssscreen450onboardingone.ui.CssScreen450OnboardingOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.cssscreen450homeone.ui.CssScreen450HomeOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tour_guide.app.modules.cssscreen450home.ui.CssScreen450HomeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.tour_guide.app.modules.onboarding.ui.OnboardingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

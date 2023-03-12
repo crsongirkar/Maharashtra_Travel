@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_login_with_goog">Login with Google</string>
+<string name="lbl_night">/night</string>
+<string name="msg_4_0_36_review2">4.0 | 36 Reviews | $40.0/night</string>
+<string name="msg_happy_to_see_yo">Happy to see you again! Please enter your email and password to login to your account.</string>
+<string name="lbl_36_reviews2"> 36 Reviews </string>
+<string name="msg_don_t_have_an_a">Don\u2019t have an account? Sign up</string>
+<string name="lbl_email_address">Email Address</string>
+<string name="msg_alexandro_gmail2">alexandro@gmail.co</string>
+<string name="msg_lorem_ipsum_do">\u201cLorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sapien viverra laoreet fusce cras nibh.\u201c </string>
+<string name="msg_don_t_have_an_a2">Don\u2019t have an account? </string>
+<string name="lbl_milano_park">Milano Park</string>
+<string name="lbl_park">Park</string>
+<string name="lbl_36_reviews"> 36 Reviews</string>
+<string name="msg_welcome_please">Welcome! Please enter your Name, email and password to create your account.</string>
+<string name="msg_already_have_an">Already have an account? Login</string>
+<string name="lbl_entertainment">Entertainment</string>
+<string name="lbl_resturant">Resturant</string>
+<string name="lbl_login">Login</string>
+<string name="lbl_resturants">Resturants</string>
+<string name="msg_welcome_back">Welcome Back! &#128525;</string>
+<string name="lbl_40_0">$40.0</string>
+<string name="msg_re_enter_passwo">Re-enter Password</string>
+<string name="lbl_view_all">View all</string>
+<string name="msg_already_have_an2">Already have an account? </string>
+<string name="msg_sant_paulo_mil">Sant Paulo, Milan, Italy</string>
+<string name="msg_4_0_36_review">4.0 | 36 Reviews</string>
+<string name="msg_start_searching">Start searching here...</string>
+<string name="lbl_discover_places">Discover Places </string>
+<string name="lbl_all">All</string>
+<string name="lbl_your_password">Your Password</string>
+<string name="lbl_4_0">4.0</string>
+<string name="lbl_read_reviews">Read Reviews</string>
+<string name="lbl_parks">Parks</string>
+<string name="msg_alexandro_gmail">alexandro@gmail.co|</string>
+<string name="lbl_sign_up">Sign up</string>
+<string name="lbl_30_min_by_car">30 min by car</string>
+<string name="lbl_or">Or</string>
+<string name="msg_discover_best_p">Discover best places
+to go to vacation &#128525;</string>
+<string name="msg_lorem_ipsum_dol">Welcome To Maharashtra Guide App </string>
+<string name="lbl_people_liked">People Liked</string>
+<string name="msg_services_in_mil">Services in Milano Mountian</string>
+<string name="msg_milano_mountain">Milano Mountains</string>
+<string name="lbl">|</string>
+<string name="lbl_howday_alex"> Howday &#128075; Alex!</string>
+<string name="lbl_milano_cafe">Milano Cafe</string>
+<string name="lbl_full_name">Full Name</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729745088940",
+    "project_id": "tourist-guide-app-25d2d",
+    "storage_bucket": "tourist-guide-app-25d2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729745088940:android:d9c889e72da93e4c7ada09",
+        "android_client_info": {
+          "package_name": "com.chinmaysapplication.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729745088940-3rngcvtvsmou0rsvu776ht0isce5bbr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2yYLmX7Rnis-eKDR8iy3UHdFTXvCcuO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729745088940-3rngcvtvsmou0rsvu776ht0isce5bbr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="loginTypingVM" type="com.tour_guide.app.modules.logintyping.data.viewmodel.LoginTypingVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearLoginTyping"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtWelcomeBack"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_27pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{loginTypingVM.loginTypingModel.txtWelcomeBack}"
+            style="@style/txtDMSansbold30" tools:text="@string/msg_welcome_back"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtHappytoseeyo"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_25pxv"
+            android:layout_width="match_parent"
+            android:text="@{loginTypingVM.loginTypingModel.txtHappytoseeyo}"
+            style="@style/txtDMSansregular14" tools:text="@string/msg_happy_to_see_yo"/>
+        <FrameLayout android:id="@+id/frameStackframeseven"
+            android:layout_height="@dimen/_50pxv"
+            android:layout_marginEnd="@dimen/_48pxh"
+            android:layout_marginStart="@dimen/_48pxh"
+            android:layout_marginTop="@dimen/_26pxv"
+            android:layout_width="@dimen/_142pxh" style="@style/groupStylecornerRadius_1">
+            <HorizontalScrollView android:fillViewport="true"
+                android:id="@+id/horizontalScrollHorizontalscrollcreatefromfra"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:scrollbars="none">
+                <FrameLayout android:id="@+id/frameStackcreatefromfra"
+                    android:layout_height="@dimen/_42pxv" android:layout_width="@dimen/_142pxh">
+                    <View
+                        android:background="@drawable/rectangle_border_indigo_50_radius_33"
+                        android:id="@+id/viewCreatefromfra"
+                        android:layout_gravity="bottom|end"
+                        android:layout_height="@dimen/_64pxv" android:layout_width="@dimen/_346pxh"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="top|start"
+                        android:id="@+id/txtAlexandrogmail"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{loginTypingVM.loginTypingModel.txtAlexandrogmail}"
+                        style="@style/txtDMSansmedium15_1" tools:text="@string/msg_alexandro_gmail"/>
+                </FrameLayout>
+            </HorizontalScrollView>
+            <TextView android:ellipsize="end" android:gravity="center"
+                android:id="@+id/txtFrameSeven"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_2pxv"
+                android:paddingEnd="@dimen/_4pxh"
+                android:paddingStart="@dimen/_4pxh"
+                android:paddingTop="@dimen/_1pxv"
+                android:singleLine="true"
+                android:text="@{loginTypingVM.loginTypingModel.txtFrameSeven}"
+                style="@style/txtSolid" tools:text="@string/lbl_email_address"/>
+        </FrameLayout>
+        <EditText
+            android:background="@drawable/rectangle_border_indigo_50_radius_33"
+            android:ellipsize="end"
+            android:hint="@string/lbl_your_password"
+            android:id="@+id/etFrameFive"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_42pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_24pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_26pxh"
+            android:paddingTop="@dimen/_24pxv" android:singleLine="true"
+            android:text="@={loginTypingVM.loginTypingModel.etFrameFiveValue}"
+            android:textColorHint="@color/bluegray_400"
+            style="@style/etRoundedOutline" tools:ignore="Autofill"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnLogin"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_34pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_23pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_23pxv" android:singleLine="true"
+            android:text="@string/lbl_login" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_login"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowlinetwo"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <View android:background="@color/gray_200"
+                android:id="@+id/lineLineTwo"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_6pxv"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_weight="0.47" android:layout_width="0dp"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtOr"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_weight="0.05" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{loginTypingVM.loginTypingModel.txtOr}"
+                style="@style/txtDMSansmedium14" tools:text="@string/lbl_or"/>
+            <View android:background="@color/gray_200"
+                android:id="@+id/lineLineOne"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_6pxv"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_weight="0.47" android:layout_width="0dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical"
+            android:id="@+id/linearRowgoogle"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_18pxv"
+            android:layout_width="match_parent"
+            android:orientation="horizontal" style="@style/groupStylecornerRadius">
+            <ImageView android:id="@+id/imageGoogle"
+                android:layout_height="@dimen/_20pxh"
+                android:layout_marginBottom="@dimen/_22pxv"
+                android:layout_marginStart="@dimen/_90pxh"
+                android:layout_marginTop="@dimen/_22pxv"
+                android:layout_width="@dimen/_20pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_google"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_google"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLoginwithGoog"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_21pxv"
+                android:layout_marginEnd="@dimen/_88pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_marginTop="@dimen/_25pxv"
+                android:layout_weight="0.87" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{loginTypingVM.loginTypingModel.txtLoginwithGoog}"
+                style="@style/txtDMSansbold16" tools:text="@string/msg_login_with_goog"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtConfirmation"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_207pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{loginTypingVM.loginTypingModel.txtConfirmation}"
+            style="@style/txtDMSansregular14" tools:text="@string/msg_don_t_have_an_a"/>
+    </LinearLayout>
+</layout>
